@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+header a:hover {
+    color: #f15014;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header a {
+    margin-left: 20px;
+}
+
+.steel {
+    background-image: url(i1.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.steel .detail {
+    width: 60%;
+}
+
+.steel .detail h1 {
+    font-size: 4rem;
+}
+
+.steel .detail p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.steel .detail button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.steel .detail .about {
+    margin-left: 10px;
+}
+
+.query {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f15014;
+    padding: 50px;
+    color: #ffff;
+}
+
+.query .sales_team h1 {
+    font-size: 2.5rem;
+}
+
+.query .sales_team .icon {
+    margin-top: 1rem;
+}
+
+.query .sales_team p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.query .sales_team i {
+    padding-right: 15px;
+}
+
+.query button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(107, 104, 104);
+    border: none;
+    margin-top: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.quality {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.quality .photo {
+    width: 35%;
+}
+
+.quality .photo img {
+    width: 100%;
+}
+
+.quality .photo_text {
+    width: 65%;
+    margin-left: 50px;
+}
+
+.quality .photo_text h1 {
+    font-size: 3rem;
+}
+
+.quality .photo_text h5 {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.quality .photo_text p {
+    margin-top: 20px;
+}
+
+.quality .photo_text button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.our_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.our_services .service {
+    width: 70%;
+    text-align: center;
+}
+
+.our_services .service h1 {
+    font-size: 3rem;
+}
+
+.our_services .service p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.our_services .cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.our_services .cards .card1 {
+    width: 28%;
+    background-color: #f5f5f5;
+}
+
+.our_services .cards .card1 .detail {
+    padding: 20px;
+}
+
+.our_services .cards .card1 h5 {
+    font-size: 1.4rem;
+}
+
+.our_services .cards .card1 p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.our_services .cards .card1 img {
+    width: 100%;
+}
+
+.our_services .cards .card1 button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.our_services .cards .card2 {
+    width: 28%;
+    background-color: #f5f5f5;
+}
+
+.our_services .cards .card2 .detail {
+    padding: 20px;
+}
+
+.our_services .cards .card2 h5 {
+    font-size: 1.4rem;
+}
+
+.our_services .cards .card2 p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.our_services .cards .card2 img {
+    width: 100%;
+}
+
+.our_services .cards .card2 button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.our_services .cards .card3 {
+    width: 28%;
+    background-color: #f5f5f5;
+}
+
+.our_services .cards .card3 .detail {
+    padding: 20px;
+}
+
+.our_services .cards .card3 h5 {
+    font-size: 1.4rem;
+}
+
+.our_services .cards .card3 p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.our_services .cards .card3 button {
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.our_services .cards .card3 img {
+    width: 100%;
+}
+
+.manuf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.manuf .products {
+    width: 70%;
+    text-align: center;
+}
+
+.manuf .products h1 {
+    font-size: 3rem;
+}
+
+.manuf .products p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.manuf .tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.manuf .tools .tool1 {
+    width: 20%;
+}
+
+.manuf .tools .tool1 img {
+    width: 100%;
+}
+
+.manuf .tools .tool1 .icon {
+    height: 12rem;
+}
+
+.manuf .tools .tool1 .name {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.manuf .tools .tool1 .name h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.manuf .tools .tool1 .name .order {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.manuf .tools .tool1 .name h5 {
+    font-size: 1rem;
+}
+
+.manuf .tools .tool1 .name .order i {
+    margin-left: 5px;
+    padding-top: 2.5px;
+}
+
+.manuf .tools .tool2 {
+    width: 20%;
+}
+
+.manuf .tools .tool2 img {
+    width: 100%;
+}
+
+.manuf .tools .tool2 .icon {
+    height: 12rem;
+}
+
+.manuf .tools .tool2 .name {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.manuf .tools .tool2 .name h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.manuf .tools .tool2 .name .order {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.manuf .tools .tool2 .name h5 {
+    font-size: 1rem;
+}
+
+.manuf .tools .tool2 .name .order i {
+    margin-left: 5px;
+    padding-top: 2.5px;
+}
+
+.manuf .tools .tool3 {
+    width: 20%;
+}
+
+.manuf .tools .tool3 img {
+    width: 100%;
+}
+
+.manuf .tools .tool3 .icon {
+    height: 12rem;
+}
+
+.manuf .tools .tool3 .name {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.manuf .tools .tool3 .name h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.manuf .tools .tool3 .name .order {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.manuf .tools .tool3 .name h5 {
+    font-size: 1rem;
+}
+
+.manuf .tools .tool3 .name .order i {
+    margin-left: 5px;
+    padding-top: 2.5px;
+}
+
+.manuf .tools .tool4 {
+    width: 20%;
+}
+
+.manuf .tools .tool4 img {
+    width: 100%;
+}
+
+.manuf .tools .tool4 .icon {
+    height: 12rem;
+}
+
+.manuf .tools .tool4 .name {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.manuf .tools .tool4 .name h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.manuf .tools .tool4 .name .order {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.manuf .tools .tool4 .name h5 {
+    font-size: 1rem;
+}
+
+.manuf .tools .tool4 .name .order i {
+    margin-left: 5px;
+    padding-top: 2.5px;
+}
+
+.happy {
+    background-image: url(/img/steel.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.happy .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.happy .boxes .project {
+    width: 20%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.happy .boxes .project i {
+    font-size: 2rem;
+    color: #f15014;
+    border-radius: 50px;
+}
+
+.happy .boxes .project h3 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.happy .boxes .project h5 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.team {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.team .our_team{
+    width: 70%;
+    text-align: center;
+}
+
+.team .our_team h1{
+    font-size: 3rem;
+}
+
+.team .our_team p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.team .people{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.team .people .engineer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.people .engineer .box {
+    width: 20%;
+    height: 15rem;
+    align-items: center;
+    background-color: #f5f5f5;
+    position: relative;
+    margin: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.people .engineer .box .image {
+    text-align: center;
+}
+
+.people .engineer .box img {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 150px;
+    transform: translateX(-50%);
+}
+
+.people .engineer .box .intro {
+    padding: 7rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.people .engineer .box .intro h3{
+    font-size: 1.5rem;
+}
+
+.people .engineer .box .intro h5{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.people .engineer .box .intro p{
+    margin-top: 10px;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+.contact .caller{
+    width: 48%;
+    height: 26rem;
+}
+
+.contact .form{
+    width: 48%;
+    background-color: #ffff;
+    padding: 20px;
+    height: 26rem;
+}
+
+.contact .caller img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact .form h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact .name input{
+    width: 16rem;
+    padding: 5px;
+}
+
+.contact .mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact .mail input{
+    width: 16rem;
+    padding: 5px;
+}
+
+.contact .message{
+    margin-top: 10px;
+}
+
+.contact .form textarea{
+    width: 100%;
+    padding: 5px;
+    height: 10rem;
+}
+
+
+.contact .form .button{
+    text-align: center;
+}
+
+.contact .form button{
+    width: 7rem;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f15014;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
